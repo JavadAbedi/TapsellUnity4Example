@@ -1,0 +1,13 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\Backtory\BacktoryTestUnity\Assets\TestingModule.cs">
+    <Files>
+      <File FileName="..\..\Backtory\BacktoryTestUnity\Assets\TestBacktory.cs" Line="103" Column="7" />
+      <File FileName="..\..\Backtory\BacktoryTestUnity\Assets\TestingModule.cs" Line="40" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

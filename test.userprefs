@@ -1,0 +1,16 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Test.cs">
+    <Files>
+      <File FileName="Assets\DeveloperCtaInterface.cs" Line="20" Column="22" />
+      <File FileName="Assets\Test.cs" Line="30" Column="3" />
+      <File FileName="Assets\TapsellDeveloper.cs" Line="1" Column="1" />
+      <File FileName="Assets\TapsellWrapper.cs" Line="1" Column="1" />
+      <File FileName="Assets\TapsellObject.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
