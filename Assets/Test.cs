@@ -13,7 +13,7 @@ public class Test : MonoBehaviour {
 
 		TapsellDeveloper.getInstance ().setPurchaseNotifier((String sku, String purchaseId) => { 
 			TapsellDeveloper.getInstance ().consumeProduct(sku, (Boolean consumed, Boolean connected) => {
-				// Call after each perchase
+				// Call after each purchase
 			});
 			});
 
