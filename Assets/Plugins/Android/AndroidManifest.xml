@@ -14,14 +14,38 @@
       <meta-data android:name="unityplayer.UnityActivity" android:value="true" />
       <meta-data android:name="unityplayer.ForwardNativeEventsToDalvik" android:value="false" />
     </activity>
-	<activity android:name="ir.tapsell.tapselldevelopersdk.FirstPage" android:screenOrientation="portrait"  android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
-    <activity android:name="ir.tapsell.tapselldevelopersdk.CtaDescription" android:screenOrientation="portrait"  android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
-    <activity android:name="ir.tapsell.tapselldevelopersdk.MessagesList" android:screenOrientation="portrait"  android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
-    <activity android:name="ir.tapsell.tapselldevelopersdk.ReportPage" android:screenOrientation="portrait"  android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
-    <activity android:name="ir.tapsell.tapselldevelopersdk.ShowVideoPage" android:screenOrientation="landscape"  android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
-	<activity android:name="ir.tapsell.tapselldevelopersdk.WebViewActivity" android:screenOrientation="portrait"  android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
-	<activity android:name="ir.tapsell.tapselldevelopersdk.DirectAdMiddleActivity" android:screenOrientation="portrait"  android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
-	<activity android:name="ir.tapsell.tapselldevelopersdk.Router" android:screenOrientation="portrait"  android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+        <activity
+            android:name="ir.tapsell.tapselldevelopersdk.FirstPage"
+            android:screenOrientation="portrait"
+			android:theme="@style/AppTheme"/>
+        <activity
+            android:name="ir.tapsell.tapselldevelopersdk.CtaDescription"
+            android:screenOrientation="portrait"
+			android:theme="@style/AppTheme" />
+        <activity
+            android:name="ir.tapsell.tapselldevelopersdk.MessagesList"
+            android:screenOrientation="portrait"
+			android:theme="@style/AppTheme" />
+        <activity
+            android:name="ir.tapsell.tapselldevelopersdk.ReportPage"
+            android:screenOrientation="portrait"
+			android:theme="@style/AppTheme" />
+        <activity
+            android:name="ir.tapsell.tapselldevelopersdk.ShowVideoPage"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity
+            android:name="ir.tapsell.tapselldevelopersdk.WebViewActivity"
+            android:screenOrientation="portrait"
+			android:theme="@style/AppTheme" />
+        <activity
+            android:name="ir.tapsell.tapselldevelopersdk.DirectAdMiddleActivity"
+            android:screenOrientation="portrait"
+			android:theme="@style/AppTheme" />
+        <activity
+            android:name="ir.tapsell.tapselldevelopersdk.Router"
+            android:screenOrientation="portrait"
+			android:theme="@style/AppTheme" />
 	<service android:name="ir.tapsell.tapselldevelopersdk.services.asynchservices.core.HttpService" />
   </application>
   <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="21" />
