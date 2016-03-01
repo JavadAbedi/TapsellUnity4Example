@@ -11,27 +11,116 @@
         android:layout_height="fill_parent"
         android:visibility="visible" >
 
-        <VideoView
-            android:id="@+id/video"
+        <RelativeLayout
+            android:id="@+id/player_layout"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:layout_alignParentBottom="true"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentTop="true" />
+            android:visibility="visible" >
 
-        <ir.tapsell.tapselldevelopersdk.styledview.DonutProgress
-            android:id="@+id/donut_progress"
-            android:layout_width="40dip"
-            android:layout_height="40dip"
-            android:layout_alignParentBottom="true"
-            android:layout_alignParentLeft="true"
-            android:layout_margin="5dip"
-            app:donut_finished_color="#ffa500"
-            app:donut_finished_stroke_width="3dip"
-            app:donut_text_color="#ffa500"
-            app:donut_text_size="12sp"
-            app:donut_unfinished_stroke_width="3dip" />
+            <VideoView
+                android:id="@+id/video"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true" />
+
+            <ir.tapsell.tapselldevelopersdk.styledview.DonutProgress
+                android:id="@+id/donut_progress"
+                android:layout_width="40dip"
+                android:layout_height="40dip"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_margin="5dip"
+                app:donut_finished_color="#ffa500"
+                app:donut_finished_stroke_width="3dip"
+                app:donut_text_color="#ffa500"
+                app:donut_text_size="12sp"
+                app:donut_unfinished_stroke_width="3dip" />
+
+            <ImageButton
+                android:id="@+id/sound_btn"
+                android:layout_width="20dip"
+                android:layout_height="20dip"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_margin="8dip"
+                android:background="@null"
+                android:scaleType="fitXY"
+                android:src="@drawable/sound_on" />
+
+            <ImageButton
+                android:id="@+id/instant_done_btn"
+                android:layout_width="40dip"
+                android:layout_height="40dip"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_margin="5dip"
+                android:background="@null"
+                android:padding="2dip"
+                android:scaleType="fitXY"
+                android:src="@drawable/instant_done"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/player_background_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/tapsell_video_background"
+            android:orientation="vertical"
+            android:weightSum="100" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_weight="50"
+                android:orientation="horizontal"
+                android:weightSum="100" >
+
+                <View
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20" />
+
+                <ir.tapsell.tapselldevelopersdk.styledview.StyledTextView
+                    android:id="@+id/title"
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical|right"
+                    android:layout_weight="40"
+                    android:gravity="center_vertical|right"
+                    android:paddingRight="3dip"
+                    android:text="عنوان تبلیغ"
+                    android:textColor="@android:color/white" />
+
+                <FrameLayout
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20" >
+
+                    <ImageView
+                        android:id="@+id/cta_icon"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:scaleType="fitCenter" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:scaleType="fitCenter" 
+                        android:src="@drawable/gray_round_boarder"/>
+                </FrameLayout>
+
+                <View
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="34" />
+            </LinearLayout>
+        </LinearLayout>
     </RelativeLayout>
 
     <RelativeLayout
@@ -63,6 +152,17 @@
                 android:background="@null"
                 android:scaleType="fitXY"
                 android:src="@drawable/close_btn" />
+
+            <ImageButton
+                android:id="@+id/restart_video"
+                android:layout_width="30dip"
+                android:layout_height="30dip"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_margin="3dip"
+                android:background="@null"
+                android:scaleType="fitXY"
+                android:src="@drawable/restart_video" />
         </RelativeLayout>
 
         <WebView

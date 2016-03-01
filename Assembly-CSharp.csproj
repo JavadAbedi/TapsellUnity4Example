@@ -63,6 +63,7 @@
      <None Include="Assets\Plugins\Android\res\drawable\dialog_header_full.xml" />
      <None Include="Assets\Plugins\Android\res\drawable\background_tab.xml" />
      <None Include="Assets\Plugins\Android\res\values-sw720dp-land\dimens.xml" />
+     <None Include="Assets\Plugins\Android\res\values\tapsell_styles.xml" />
      <None Include="Assets\Plugins\Android\res\values-w820dp\dimens.xml" />
      <None Include="Assets\Plugins\Android\res\layout\activity_main.xml" />
      <None Include="Assets\Plugins\Android\res\values-v11\styles.xml" />
@@ -86,7 +87,6 @@
      <None Include="Assets\Plugins\Android\res\layout\styleddialogwithonebutton.xml" />
      <None Include="Assets\Plugins\Android\res\layout\firstpagefragment.xml" />
      <None Include="Assets\Plugins\Android\res\values\strings.xml" />
-     <None Include="Assets\Plugins\Android\res\values\styles.xml" />
      <None Include="Assets\Plugins\Android\res\values\dimens.xml" />
      <None Include="Assets\Plugins\Android\res\layout\activity_first_page.xml" />
      <None Include="Assets\Plugins\Android\res\drawable\list_selector.xml" />

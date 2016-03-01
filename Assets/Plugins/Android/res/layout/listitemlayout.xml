@@ -67,7 +67,6 @@
             android:layout_width="@dimen/action_bar_height"
             android:layout_height="wrap_content"
             android:layout_marginLeft="5dip"
-            android:layout_gravity="center"
             android:background="@null"
             android:scaleType="fitXY"
             android:src="@drawable/mainicondark" />

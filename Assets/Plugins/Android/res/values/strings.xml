@@ -60,6 +60,11 @@
     <string name="error">خطا</string>
     <string name="report_hint">پیام دلخواه</string>
     <string name="report_message">برای ارتباط با توسعه دهنده و ارسال انتقادات و پیشنهادات از کادر زیر استفاده نمایید.</string>
+    
+    <string name="ignore_reward_title">انصراف از دریافت جایزه</string>
+    <string name="ignore_reward_content">اگر قبل از اتمام ویدیو از صفحه خارج شوید جایزه ای دریافت نمی کنید. از خروج مطمئن هستید؟</string>
+    <string name="ignore_reward_ok">خروج</string>
+    <string name="ignore_reward_cancel">ادامه نمایش ویدیو</string>
 
     <!-- showcase -->
     <string name="sc_offers">اینجا یه سری کار رایگان میکنی و شیتیل جایزه میگیری</string>

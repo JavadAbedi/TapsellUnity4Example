@@ -2,8 +2,8 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:background="@color/tapsell_dialog_header">
+	android:background="@color/tapsell_clip_list_pressed"
+    android:orientation="vertical" >
 
     <ir.tapsell.tapselldevelopersdk.styledview.StyledTextView
         android:id="@+id/title"
@@ -60,7 +60,6 @@
         android:layout_marginLeft="10dip"
         android:layout_marginRight="10dip"
         android:layout_marginBottom="4dip"
-        android:textColor="@android:color/white"
         android:background="@drawable/button_open_orange"
         android:text="@string/doit" />
 
