@@ -10,7 +10,7 @@ public class Test : MonoBehaviour {
 	void Start () {
 		// Set your key
 		TapsellDeveloper.getInstance ().setKey ("ekdcaoonjrofaqipsbnffdlnrdafefalbhcmastitqhbffkhdcoqahdilnqrabcsiahoon");
-		
+		TapsellDeveloper.getInstance ().setAppUserId ("mane-mane-kalle-gonde");
 		TapsellDeveloper.getInstance ().setPurchaseNotifier ((String sku, String purchaseId) => { 
 			TapsellDeveloper.getInstance ().consumeProduct (sku, (Boolean consumed, Boolean connected) => {
 				// Call after each purchase
@@ -22,7 +22,8 @@ public class Test : MonoBehaviour {
 		});
 		
 		// Check ready Advertisement
-		DeveloperCtaInterface.getInstance().checkCtaAvailability (DeveloperCtaInterface.VIDEO_PLAY, 0, true, (Boolean connected, Boolean isAvailable) => {
+		// For Test Video: minimumAward = -2
+		DeveloperCtaInterface.getInstance().checkCtaAvailability (DeveloperCtaInterface.VIDEO_PLAY, -2, true, (Boolean connected, Boolean isAvailable) => {
 			Debug.Log("Tapsell: " + connected + " " + isAvailable);
 		});
 		
@@ -43,7 +44,8 @@ public class Test : MonoBehaviour {
 			// TapsellDeveloper.getInstance().startTapsell();
 			
 			// Show Tapsell Advertisement
-			DeveloperCtaInterface.getInstance().showNewCta (DeveloperCtaInterface.VIDEO_PLAY, 0, (Boolean connected, Boolean isAvailable, int award) => {
+			// For Test Video: minimumAward = -2
+			DeveloperCtaInterface.getInstance().showNewCta (DeveloperCtaInterface.VIDEO_PLAY, -2, (Boolean connected, Boolean isAvailable, int award) => {
 				Debug.Log("test " + connected + " " + isAvailable + " " + award);
 			});
 		}

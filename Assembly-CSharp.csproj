@@ -46,10 +46,10 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\DeveloperCtaInterface.cs" />
-     <Compile Include="Assets\TapsellDeveloper.cs" />
-     <Compile Include="Assets\TapsellObject.cs" />
-     <Compile Include="Assets\TapsellWrapper.cs" />
+     <Compile Include="Assets\TapsellScript\DeveloperCtaInterface.cs" />
+     <Compile Include="Assets\TapsellScript\TapsellDeveloper.cs" />
+     <Compile Include="Assets\TapsellScript\TapsellObject.cs" />
+     <Compile Include="Assets\TapsellScript\TapsellWrapper.cs" />
      <Compile Include="Assets\Test.cs" />
      <None Include="Assets\Plugins\Android\res\layout\listitemlayout.xml" />
      <None Include="Assets\Plugins\Android\res\values\ids.xml" />

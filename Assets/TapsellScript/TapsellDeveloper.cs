@@ -29,6 +29,10 @@ public class TapsellDeveloper {
 		tapsellObject.wrapper.consumeProduct (sku, action);
 	}
 
+	public void setAppUserId(String appUserId) {
+		tapsellDeveloperInfo.Call ("setAppUserId", appUserId);
+	}
+
 	public void isProductPurchasedAndNotConsumed(String sku, Action<Boolean, Boolean, String> action){
 		tapsellDeveloperInfo.Call ("isProductPurchasedAndNotConsumed", sku);
 		tapsellObject.wrapper.isProductPurchasedAndNotConsumed (sku, action);
